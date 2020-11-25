@@ -19,5 +19,11 @@ pipeline {
       }
     }
 
+    stage('commit') {
+      steps {
+        echo 'commit completed'
+      }
+    }
+
   }
 }
